@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WORK</title>
+</head>
+<body>
+  <section>
+    <h3>FORM</h3>
+  <form action="workwui.php" method="post">
+    <fieldset><legend>Credentials</legend>
+   <label>Enter Firstname:</label>
+   <input type="text" placeholder="surname" name="first"><br><br>
+   <label>Enter Secondname:</label>
+   <input type="text" placeholder="lastname" name="second"><br><br>
+   <label>Enter email:</label>
+   <input type="email" placeholder="your email account" name= "email"><br><br>
+   <label>Contact:</label>
+   <input type="tel" placeholder="phone number" name="tel"><br><br>
+  </fieldset>
+   <fieldset><legend>More about you</legend>
+   <!-- <label>A picture of you:</label><br>
+   <input type="file" name="pic"><br><br> -->
+   <label>Enter Birthday:</label><br>
+   <input type="date" name="bd"><br><br>
+   <label>Country:</label>
+   <select name="country">
+    <option>Rwanda</option>
+    <option>Kenya</option>
+    <option>Uganda</option>
+    <option>DRC</option>
+    <option>Tanzania</option>
+   </select><br><br>
+   <label>Gender:</label><br>
+   <input type="radio" name="n1" value="Male">Male
+   <input type="radio" name="n1" value="Female">Female<br><br>
+   <label>Spoken Languages:</label><br>
+   <input type="checkbox" name="lang[]" value="Kinyarwanda">Kinyarwanda<br>
+   <input type="checkbox" name="lang[]"  value="Kiswahili">Kiswahili<br>
+   <input type="checkbox" name="lang[]" value="English">English<br>
+   <input type="checkbox" name="lang[]" value="French">French<br><br>
+   <label>Rate our services:</label>
+   <input type="range" max="10" min="1" value="2" name="rating"><br><br>
+  </fieldset>
+  <input type="submit">
+  </form>
+</section>
+</body>
+</html>
